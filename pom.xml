@@ -24,6 +24,7 @@
     <modules>
 
         <module>lattice-fos-server</module>
+        <module>lattice-plugin-server</module>
     </modules>
 
     <dependencyManagement>
