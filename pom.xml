@@ -25,6 +25,9 @@
 
         <module>lattice-fos-server</module>
         <module>lattice-plugin-server</module>
+        <module>lattice-remote-ability</module>
+        <module>lattice-remote-ability/lattice-remote-ability-sdk</module>
+        <module>lattice-remote-ability/lattice-remote-ability-runtime</module>
     </modules>
 
     <dependencyManagement>

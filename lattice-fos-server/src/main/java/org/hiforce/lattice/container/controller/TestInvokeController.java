@@ -2,7 +2,7 @@ package org.hiforce.lattice.container.controller;
 
 import org.hifforce.lattice.model.business.BizContext;
 import org.hifforce.lattice.sequence.SequenceGenerator;
-import org.hiforce.lattice.sample.SampleAbility;
+import org.hiforce.lattice.remote.ability.LatticeRemoteInvokeAbility;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,7 +17,7 @@ public class TestInvokeController {
 
     @RequestMapping("/hello")
     public String hello() {
-        SampleAbility ability = new SampleAbility(() -> new BizContext() {
+        LatticeRemoteInvokeAbility ability = new LatticeRemoteInvokeAbility(() -> new BizContext() {
 
             @Override
             public Serializable getBizId() {
@@ -34,6 +34,6 @@ public class TestInvokeController {
                 return null;
             }
         });
-        return ability.doHello();
+        return ability.remoteHelloInvoke();
     }
 }

@@ -29,8 +29,8 @@
         </dependency>
         <dependency>
             <groupId>org.hiforce.lattice</groupId>
-            <artifactId>lattice-remote-sample-ability</artifactId>
-            <version>${version.lattice}</version>
+            <artifactId>lattice-remote-ability-runtime</artifactId>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
