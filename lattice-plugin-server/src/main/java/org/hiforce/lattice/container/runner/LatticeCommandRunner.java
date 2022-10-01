@@ -13,7 +13,6 @@ public class LatticeCommandRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         LatticePluginContainer.getInstance().start();
-
-        System.out.println(">>> Lattice started!");
+        System.out.println(">>> Lattice Plugin Container started!");
     }
 }
