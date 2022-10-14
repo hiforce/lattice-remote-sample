@@ -1,6 +1,6 @@
 package org.hiforce.lattice.container.business;
 
-import org.hifforce.lattice.annotation.Realization;
+import org.hiforce.lattice.annotation.Realization;
 import org.hiforce.lattice.remote.sdk.BlankRemoteSampleBusinessExt;
 
 /**

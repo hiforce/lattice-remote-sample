@@ -1,7 +1,7 @@
 package org.hiforce.lattice.container.controller;
 
-import org.hifforce.lattice.model.business.BizContext;
-import org.hifforce.lattice.sequence.SequenceGenerator;
+import org.hiforce.lattice.model.business.BizContext;
+import org.hiforce.lattice.sequence.SequenceGenerator;
 import org.hiforce.lattice.remote.ability.LatticeRemoteInvokeAbility;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

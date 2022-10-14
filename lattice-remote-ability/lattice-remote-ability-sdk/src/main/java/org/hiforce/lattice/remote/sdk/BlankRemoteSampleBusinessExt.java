@@ -1,6 +1,7 @@
 package org.hiforce.lattice.remote.sdk;
 
-import org.hifforce.lattice.model.ability.BusinessExt;
+
+import org.hiforce.lattice.model.ability.BusinessExt;
 
 /**
  * @author Rocky Yu

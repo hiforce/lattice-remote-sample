@@ -1,6 +1,6 @@
 package org.hiforce.lattice.container.business;
 
-import org.hifforce.lattice.annotation.Business;
+import org.hiforce.lattice.annotation.Business;
 
 /**
  * @author Rocky Yu
